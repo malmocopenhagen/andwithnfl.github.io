@@ -1,0 +1,84 @@
+/* Typography */
+body {
+    /* Everything is Montserrat */
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .navbar {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+  /* "logo" is bigger */
+  .navbar-brand {
+      font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+  }
+  .navbar-light .navbar-brand {
+    color: teal;
+  }
+
+   /* Button */
+  .btn-primary {
+    background-color: teal;
+    color: white;
+  }
+  
+   /* Masthead */
+  .masthead {
+    /* Background */
+    min-height: 200px;
+    color: teal;
+  }
+
+  .masthead-special {
+    /* Background */
+    min-height: 20px;
+    color: teal;
+  }
+
+  /* Jumbotron background and font styles */
+ 
+  .jumbotron {
+    /* Background */
+    background-attachment: scroll;
+    background-image: url(draftheader.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 1000px;
+
+  /* Fonts */
+  color: black;
+  }
+
+  
+  /* Format the h1 */
+  .h1 {
+    font-size: x-large;
+    vertical-align: middle;
+  }
+  
+  .carousel {
+    max-height: 800px;
+    overflow: hidden;
+  }
+  
+    .item img {
+      width: 100%;
+      height: auto;
+    }
+
+  /* The footer */
+  .footer {
+    color: teal;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .footer img {
+    width: 100px;
+  }
+
